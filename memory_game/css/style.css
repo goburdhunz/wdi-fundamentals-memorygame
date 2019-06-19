@@ -21,8 +21,14 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: 0 20px;
-	border-bottom: 3px solid transparent;
+	border-bottom: 3.5px solid transparent;
+	font-size: 25px;
 }
+
+div {
+	padding-bottom: 30px;
+}
+
 
 a:hover {
 	border-color: #F15B31;
@@ -35,6 +41,11 @@ h2 {
 	font-weight: 600;
 	font-size: 20px;
 	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #0D2C40;
 }
 
 p {
@@ -55,6 +66,11 @@ nav {
 	color: #FFFFFF;
 	padding: 20px 0;
 }
+
+nav a {
+	color: white;
+}
+
 
 main {
 	width: 850px;
